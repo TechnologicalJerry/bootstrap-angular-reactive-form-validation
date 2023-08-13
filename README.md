@@ -1,7 +1,7 @@
-# angular-reactive-form-velidation
+# angular-reactive-form-validation
 
-Angular Reactive form velidation applicatioon.
-# AngularReactiveFormVelidation
+Angular Reactive form validation applicatioon.
+# AngularReactiveFormValidation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
 
