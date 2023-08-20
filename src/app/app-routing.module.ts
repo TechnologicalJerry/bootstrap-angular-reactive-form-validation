@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'login', component: LoginComponent, pathMatch: 'full' },
   { path: 'signup', component: SignupComponent, pathMatch: 'full' },
-  { path: '', component: FooterComponent, pathMatch: 'full' }
+  { path: 'footer', component: FooterComponent, pathMatch: 'full' }
 
 ];
 
