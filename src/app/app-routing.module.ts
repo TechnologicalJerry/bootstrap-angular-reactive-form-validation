@@ -7,9 +7,10 @@ import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
-  { path: 'login', component: LoginComponent, pathMatch: 'full' },
-  { path: 'signup', component: SignupComponent, pathMatch: 'full' },
-  { path: 'footer', component: FooterComponent, pathMatch: 'full' }
+  {
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then((mod) => mod.HomeModule)
+  },
 
 ];
 
