@@ -17,7 +17,6 @@ export function app(): express.Express {
   server.set('view engine', 'html');
   server.set('views', browserDistFolder);
 
-  // server.get('/api/**', (req, res) => { });
   // Serve static files from /browser
   server.get(
     '*.*',
